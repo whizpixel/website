@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111116">
+  <meta name="description" content="Three songs. A few words I didn't know how to say in time.">
+  <meta property="og:title" content="still, somewhere — three stories">
+  <meta property="og:description" content="Three songs. A few words I didn't know how to say in time.">
+  <meta property="og:type" content="website">
+  <title>still, somewhere — three stories</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#" aria-label="Home">s<span>.</span>s</a>
+    <span class="top-note">a small place for three songs</span>
+    <span class="top-index">01 — 03</span>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow"><span class="dot"></span> a quiet apology, in three parts</p>
+      <h1>Some things<br>stay <em>with us.</em></h1>
+      <p class="intro-copy">Three songs for people who mattered.<br>
+        Words I should maybe have found sooner.</p>
+      <div class="intro-whisper">I don't know if it fixes anything.<br>But I wanted to at least try.</div>
+      <div class="scroll-cue"><span></span> listen, if you feel like it</div>
+    </section>
+
+    <section class="tracks" aria-label="The three songs">
+      <article class="track-card track-finnish" data-track="kaksoissielu">
+        <div class="card-topline">
+          <span class="track-number">01 / FINNISH</span>
+          <span class="track-mood">for my twin</span>
+        </div>
+        <div class="artwork art-blue" aria-hidden="true">
+          <div class="moon"></div><div class="horizon"></div>
+          <div class="art-caption">the distance<br>between us</div>
+          <div class="art-stamp">K.</div>
+        </div>
+        <div class="track-info">
+          <div>
+            <p class="track-kicker">KAKSOISSIELU</p>
+            <h2>Still My Twin</h2>
+            <p class="track-desc">For the conversations that grew further apart,<br>and the place I never knew how to ask for.</p>
+          </div>
+          <span class="duration" id="duration-kaksoissielu">—:—</span>
+        </div>
+        <div class="player">
+          <button class="play-button" type="button" aria-label="Play Still My Twin" data-play="kaksoissielu">
+            <span class="play-icon"></span>
+          </button>
+          <div class="player-main">
+            <div class="progress-wrap">
+              <input class="progress" type="range" min="0" max="1000" value="0" step="1" aria-label="Position in Still My Twin" data-progress="kaksoissielu">
+            </div>
+            <div class="time-row"><span data-current="kaksoissielu">0:00</span><span data-total="kaksoissielu">—:—</span></div>
+          </div>
+          <span class="playing-label" data-label="kaksoissielu">listen</span>
+        </div>
+        <audio id="audio-kaksoissielu" preload="metadata" controls>
+          <source src="assets/kaksoissielu.mp3" type="audio/mpeg">
+        </audio>
+      </article>
+
+      <article class="track-card track-portuguese" data-track="ainda-aqui">
+        <div class="card-topline">
+          <span class="track-number">02 / PORTUGUESE</span>
+          <span class="track-mood">for Rafa</span>
+        </div>
+        <div class="artwork art-amber" aria-hidden="true">
+          <div class="sun"></div><div class="hill hill-one"></div><div class="hill hill-two"></div>
+          <div class="art-caption">what I should<br>have said</div>
+          <div class="art-stamp">A.</div>
+        </div>
+        <div class="track-info">
+          <div>
+            <p class="track-kicker">AINDA AQUI</p>
+            <h2>Still Here</h2>
+            <p class="track-desc">For the moments when you were going through something,<br>and I didn't know how to stay close to you.</p>
+          </div>
+          <span class="duration" id="duration-ainda-aqui">—:—</span>
+        </div>
+        <div class="player">
+          <button class="play-button" type="button" aria-label="Play Still Here" data-play="ainda-aqui">
+            <span class="play-icon"></span>
+          </button>
+          <div class="player-main">
+            <div class="progress-wrap">
+              <input class="progress" type="range" min="0" max="1000" value="0" step="1" aria-label="Position in Still Here" data-progress="ainda-aqui">
+            </div>
+            <div class="time-row"><span data-current="ainda-aqui">0:00</span><span data-total="ainda-aqui">—:—</span></div>
+          </div>
+          <span class="playing-label" data-label="ainda-aqui">listen</span>
+        </div>
+        <audio id="audio-ainda-aqui" preload="metadata" controls>
+          <source src="assets/ainda-aqui.mp3" type="audio/mpeg">
+        </audio>
+      </article>
+
+      <article class="track-card track-french" data-track="je-te-laisse-partir">
+        <div class="card-topline">
+          <span class="track-number">03 / FRENCH</span>
+          <span class="track-mood">letting go</span>
+        </div>
+        <div class="artwork art-dusk" aria-hidden="true">
+          <div class="dusk-glow"></div><div class="dusk-line"></div>
+          <div class="art-caption">letting go,<br>slowly</div>
+          <div class="art-stamp">—</div>
+        </div>
+        <div class="track-info">
+          <div>
+            <p class="track-kicker">JE TE LAISSE PARTIR</p>
+            <h2>Let You Go</h2>
+            <p class="track-desc">For the one I stopped waiting for,<br>and everything I kept anyway.</p>
+          </div>
+          <span class="duration" id="duration-je-te-laisse-partir">—:—</span>
+        </div>
+        <div class="player">
+          <button class="play-button" type="button" aria-label="Play Let You Go" data-play="je-te-laisse-partir">
+            <span class="play-icon"></span>
+          </button>
+          <div class="player-main">
+            <div class="progress-wrap">
+              <input class="progress" type="range" min="0" max="1000" value="0" step="1" aria-label="Position in Let You Go" data-progress="je-te-laisse-partir">
+            </div>
+            <div class="time-row"><span data-current="je-te-laisse-partir">0:00</span><span data-total="je-te-laisse-partir">—:—</span></div>
+          </div>
+          <span class="playing-label" data-label="je-te-laisse-partir">listen</span>
+        </div>
+        <div class="lyrics" id="lyrics-panel" data-lang="fi">
+          <div class="lyrics-head">
+            <span class="lyrics-label">lyrics</span>
+            <div class="lang-switch" role="group" aria-label="Lyrics language">
+              <button class="lang-btn is-active" type="button" data-lang="fi" aria-pressed="true">FI</button>
+              <button class="lang-btn" type="button" data-lang="pt" aria-pressed="false">PT</button>
+            </div>
+          </div>
+          <div class="lyrics-box" id="lyrics-box" role="region" aria-label="Song lyrics" tabindex="0"></div>
+        </div>
+        <audio id="audio-je-te-laisse-partir" preload="metadata" controls>
+          <source src="assets/je-te-laisse-partir.mp3" type="audio/mpeg">
+        </audio>
+      </article>
+    </section>
+
+    <section class="letter">
+      <p class="eyebrow">a note, without an expectation</p>
+      <div class="letter-rule"></div>
+      <p class="letter-main">I'm not asking you to come back.<br>
+        I'm not even asking you to reply.</p>
+      <p class="letter-secondary">I just wanted to acknowledge that I drifted away.<br>
+        That I could have been more present. That I'm sorry.</p>
+      <p class="letter-last">And that your friendship mattered. It still does.</p>
+      <span class="signature">— from someone who should have found the words sooner</span>
+    </section>
+  </main>
+
+  <footer>
+    <span>made with care, and a little regret</span>
+    <span>still, somewhere <i>©</i></span>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="lyrics.js"></script>
+</body>
+</html>
